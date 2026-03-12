@@ -1533,16 +1533,35 @@ body {
   .practice-steps { flex-direction: column; }
 }
 
-@media (min-width: 1200px) {
-  body { zoom: 1.15; }
+@media (min-width: 1024px) {
+  .slide-inner { max-width: 960px; padding: 40px 48px; }
+  .slide { padding: 48px 48px 90px; }
+  .section-title { font-size: clamp(1.4rem, 3vw, 2rem); }
+  .step-title { font-size: 18px; }
+  .step-desc { font-size: 16px; }
+  .tips-title, .compare-title, .flow-title { font-size: clamp(1.5rem, 3vw, 2rem); }
+  .tip-title { font-size: 16px; }
+  .tip-desc { font-size: 14px; }
+  .divider-title { font-size: clamp(2rem, 5vw, 2.8rem); }
+  .divider-desc { font-size: 19px; }
+  .slide-image { max-width: 520px; }
 }
 
-@media (min-width: 1600px) {
-  body { zoom: 1.3; }
+@media (min-width: 1400px) {
+  .slide-inner { max-width: 1060px; padding: 48px 56px; }
+  .section-title { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+  .step-card { padding: 18px 24px; }
+  .step-title { font-size: 20px; }
+  .step-desc { font-size: 17px; }
+  .slide-image { max-width: 580px; }
 }
 
-@media (min-width: 2000px) {
-  body { zoom: 1.5; }
+@media (min-width: 1800px) {
+  .slide-inner { max-width: 1200px; padding: 56px 64px; }
+  .slide { padding: 56px 56px 100px; }
+  .section-title { font-size: 2.4rem; }
+  .divider-title { font-size: 3rem; }
+  .slide-image { max-width: 640px; }
 }
 </style>
 </head>
